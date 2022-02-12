@@ -18,9 +18,9 @@ def solution(n, t, m, p):
     idx=0
     temp=''
     while len(answer) != t:
-        print(idx)
+        
         temp+=conv(idx,n)
-        print(temp)
+        
         while len(temp)>=m:
             
             
