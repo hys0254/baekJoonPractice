@@ -9,5 +9,4 @@ for book,cnt in books.items():
     if cnt == max :
         ans.append(book)
 ans.sort()
-for str in ans:
-    print(str)
+print(ans[0])
