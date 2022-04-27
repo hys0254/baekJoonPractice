@@ -43,7 +43,7 @@ for i in range(1,node_cnt+1):
     
 in_order(root,1)
 result_level=1
-result_width=max_level[1]-min_level[1]
+result_width=max_level[1]-min_level[1]+1
 
 for i in range(2,level_depth+1):
     if result_width<max_level[i]-min_level[i]+1:
